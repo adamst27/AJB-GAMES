@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 :root {
   --maincolor: #e94560;
   --secondcolor: #191a2e;
@@ -11,7 +12,7 @@
 }
 body {
   height: 100vh;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Cairo', sans-serif;
   overflow-x: hidden;
 }
 .container {
@@ -143,6 +144,9 @@ main .container {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+}
+main .container h1 {
+  font-size: 4rem;
 }
 .main .container .text-content p {
   margin: 10px 0;
